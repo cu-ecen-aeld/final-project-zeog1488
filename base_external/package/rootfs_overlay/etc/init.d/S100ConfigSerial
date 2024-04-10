@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Configure Serial Port for 9600 8N1 mode"
+stty -F /dev/ttyAMA0 9600 cs8 -cstopb -parenb
