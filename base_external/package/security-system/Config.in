@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_SECURITY_SYSTEM
+	bool "security-system"
+	help
+	  Includes the security system server executable from final-project-source-zeog1488
